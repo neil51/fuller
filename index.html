@@ -1,7 +1,66 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+title: "Fuller"
+layout: splash
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/unsplash-background.jpg
+  actions:
+    - label: " Download"
+      url: "https://github.com/mmistakes/minimal-mistakes/"
+#  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+excerpt: "We transform your offline business into an online-first business.  
+Download our one-pager to see what we can do for your business:"
+intro: 
+  - excerpt: "We're headquartered in Mangalore (India) but we're a fully-remote company. Interested in working for us as a developer? Reach us at [work@fuller.co.in](mailto:work@fuller.co.in)."
+feature_row:
+  - image_path: assets/images/unsplash-sylvester.jpg
+    alt: "Sylvester Wood Works"
+    title: "Sylvester Wood Works"
+    excerpt: "> Within 2 months of launching our website, most of our new projects began pouring in from the online channel. We're looking at expanding our team of carpenters from 6 to 15 within the next month. **- Mr. Sylvester D'Silva, founder at Sylvester Wood Works**"
+  - image_path: /assets/images/unsplash-portfolio.jpg
+#    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    alt: "placeholder image 2"
+    title: "Our Portfolio"
+    excerpt: "Projects that we have built and published for our **Marquee** clients."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/unsplash-henry.jpg
+    title: "Henry Mirror Works"
+    excerpt: "> I should've taken them seriously when they said that my product enquiries will double. Fuller will do a fantastic job with the digital transformation of your business. **Mr. Henry D'Souza, owner at Henry Mirror Works**"
+# feature_row2:
+#   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+#     alt: "placeholder image 2"
+#     title: "Placeholder Image Left Aligned"
+#     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+#     url: "#test-link"
+#     btn_label: "Read More"
+#     btn_class: "btn--primary"
+# feature_row3:
+#   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+#     alt: "placeholder image 2"
+#     title: "Placeholder Image Right Aligned"
+#     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+#     url: "#test-link"
+#     btn_label: "Read More"
+#     btn_class: "btn--primary"
+# feature_row4:
+#   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+#     alt: "placeholder image 2"
+#     title: "Placeholder Image Center Aligned"
+#     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+#     url: "#test-link"
+#     btn_label: "Read More"
+#     btn_class: "btn--primary"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+<!-- {% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="right" %}
+
+{% include feature_row id="feature_row4" type="center" %} -->
